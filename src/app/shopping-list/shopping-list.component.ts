@@ -6,7 +6,14 @@ import { ShoppingListService } from './shopping-list.service';
 @Component({
   selector: 'app-shopping-list',
   templateUrl: './shopping-list.component.html',
-  styleUrls: ['./shopping-list.component.css'],
+ /*  styles: [`
+ .li {
+  margin-bottom: 0.5rem;
+ }
+ `] */
+ styleUrls: ['./shopping-list.component.css'],
+  
+  
 })
 export class ShoppingListComponent implements OnInit, OnDestroy {
   ingredients: Ingredient[];

@@ -1,0 +1,9 @@
+.a {
+    margin-bottom: 1rem;
+    transition: background-color 0.6s;
+}
+
+.a:hover {
+    transition: background-color 0.6s;
+}
+    

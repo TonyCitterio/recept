@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
-import { NodeCompatibleEventEmitter } from 'rxjs/internal/observable/fromEvent';
 
 import { Ingredient } from '../shared/ingredient.model';
 import { ShoppingListService } from '../shopping-list/shopping-list.service';
@@ -18,7 +17,7 @@ export class RecipeService {
     ),
     new Recipe(
       'Tagliatelle Bolognese',
-      'En äkta Italiensk Tagliatelle Bolognese ',
+      'En äkta Italiensk Tagliatelle Bolognese',
       'https://cdn.mutti-parma.com/app/uploads/sites/14/2020/06/j3t2bzga.jpeg-free-to-use.jpg',
       [new Ingredient('Nötfärs', 500), new Ingredient('Tagliatelle', 100)]
     ),
